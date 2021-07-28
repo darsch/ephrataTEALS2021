@@ -28,15 +28,15 @@ In this step you'll be copying an existing Github _repository_ to your own accou
   1. In a new tab in Chrome, go to https://github.com/DataSnowman/ephrataTEALS2021
   2. Click on "Fork" in the top right corner
 
-        ![fork](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/fork.png)
+        ![fork](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/fork.png)
         
   3. If you are asked "Where should we fork EphrataTEALS?", click on your new Github username
 
-        ![forkdest](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/forkdest.png)
+        ![forkdest](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/forkdest.png)
 
 You now have a copy of the EphrataTEALS repository in your GitHub. This is what you should see:
 
-![yourcopy](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/yourcopy.png)
+![yourcopy](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/yourcopy.png)
 
 My username was darsch so the repository shows up as `darsh/ephrataTEALS2021`.
 
@@ -46,21 +46,21 @@ Yours should be `<firstname>-<lastinitial>-ephrata-teals/ephrataTEALS2021`.
 
 Click on Code and select `Open with Codespaces`
 
-![openWithCodespaces](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/openWithCodespaces.png)
+![openWithCodespaces](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/openWithCodespaces.png)
 
 Click on `+ New codespace on current branch`
 
-![newCodespace](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/newCodespace.png)
+![newCodespace](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/newCodespace.png)
 
 When the Codespace opens it should look something like this
 
-![yourCodespace](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/yourCodespace.png)
+![yourCodespace](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/yourCodespace.png)
 
 This step will involve entering some commands into the terminal, or command line. If this if the first time you've used a terminal, it can be intimidating. Don't worry! Just follow the directions and copy and paste the commands exactly. When an instruction says to _enter_ a command, it means to type (or paste) the command, and then press the Enter key to execute it.
 
   1. Open a terminal in your Codspace using the keyboard shortcut ``Ctrl + ` `` (you can also go to the menu in the top left and select Terminal > New Terminal) 
        
-       ![terminalMenu](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/terminalMenu.png)
+       ![terminalMenu](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/terminalMenu.png)
 
   Make sure it is a bash shell
 
@@ -78,7 +78,7 @@ git status
 
   Your terminal should now look like the following, except it will say "ephrataTEALS2021" instead of "TEALS1":
 
-  ![terminalOutput](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/terminalOutput.png)
+  ![terminalOutput](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/terminalOutput.png)
 
   4. Enter the following command, replacing `<GitHubusername>` with the `<firstname>-<lastinitial>-ephrata-teals` username you created earlier:
 
@@ -144,7 +144,7 @@ git remote -v
   12. Finally, enter the following command:
 
 ```
-git pull upstream master
+git pull upstream main
 ```
 
 **Run your CodespacesBeta.java program!**
@@ -165,12 +165,12 @@ public class CodespacesBeta {
   2. Codespaces may automatically open some other tabs. If this happens, just close them and return to `CodespacesBeta.java`.
   3. On the sidebar, click the "Run" button (the one with the play button and the little bug):
 
-   ![run](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/run.png)
+   ![run](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/run.png)
 
   3. Click "Run and Debug". Again, Codespaces may automatically open some other tabs. If this happens, close them and click "Run and Debug" again.
   4. You should see the following output in the terminal:
 
-  ![terminal](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/terminal.png)
+  ![terminal](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/terminal.png)
 
 Congratulations! You just ran your first program!
 
@@ -188,7 +188,7 @@ Congratulations! You just ran your first program!
 ```
 git add -A
 git commit -m "Modified CodespacesTest.java"
-git push origin master
+git push origin main
 ```
 
 ### In future classes:
@@ -196,7 +196,7 @@ git push origin master
 At the beginning of each class, after opening your Codepsace, you will open a terminal window (with ``Ctrl + ` `` or using menu and going to Terminal > New Terminal). Then you will enter the following command:
 
 ```
-git pull upstream master
+git pull upstream main
 ```
 
 This command gets any new code from the instructors that you will need for the class that day.
@@ -206,7 +206,7 @@ At the end of every class, you will run the following sequence of commands:
 ```
 git add -A
 git commit -m "<description of your work for the day>"
-git push origin master
+git push origin main
 ```
 This will save your changes by pushing them changes to your forked repository.
 
