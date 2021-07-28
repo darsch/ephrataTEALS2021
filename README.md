@@ -155,7 +155,7 @@ public class CodespacesBeta {
   3. Click "Run and Debug". Again, Codespaces may automatically open some other tabs. If this happens, close them and click "Run and Debug" again.
   4. You should see the following output in the terminal:
 
-  ![terminal](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021bb/master/images/terminal.png)
+  ![terminal](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/terminal.png)
 
 Congratulations! You just ran your first program!
 
