@@ -1,6 +1,6 @@
-## Create folders and files here for your labs
+## Find Sample Code here
 
-### In future classes you will follow this routine:
+### If sample code is missing:
 
 Open the terminal in your codespace using either the key shortcut
 
@@ -8,11 +8,11 @@ Open the terminal in your codespace using either the key shortcut
 Ctrl + `
 ```
 
-![terminalshortcut](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/terminalshortcut.png)
+![terminalshortcut](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/terminalshortcut.png)
 
 Or use the Application Menu select `Terminal>New Terminal`
 
-![terminalMenu](https://raw.githubusercontent.com/DataSnowman/EphrataTEALS/master/images/terminalMenu.png)
+![terminalMenu](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/terminalMenu.png)
 
 In the terminal copy and paste the following commands:
 
