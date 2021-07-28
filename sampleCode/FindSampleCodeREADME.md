@@ -8,11 +8,11 @@ Open the terminal in your codespace using either the key shortcut
 Ctrl + `
 ```
 
-![terminalshortcut](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/terminalshortcut.png)
+![terminalshortcut](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/terminalshortcut.png)
 
 Or use the Application Menu select `Terminal>New Terminal`
 
-![terminalMenu](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/terminalMenu.png)
+![terminalMenu](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/terminalMenu.png)
 
 In the terminal copy and paste the following commands:
 
@@ -21,11 +21,11 @@ In the terminal copy and paste the following commands:
 Enter
 
 ```
-git pull upstream master
+git pull upstream main
 ```
 ### At the end of every class run the following command in the terminal to push the changes to your forked repository
 
 Enter 
 ```
-git push origin master
+git push origin main
 ```
