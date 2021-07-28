@@ -36,13 +36,25 @@ In this step you'll be copying an existing Github _repository_ to your own accou
 
 You now have a copy of the EphrataTEALS repository in your GitHub. This is what you should see:
 
-![yourcopy](https://raw.githubusercontent.com/DataSnowman/b/master/images/yourcopy.png)
+![yourcopy](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/yourcopy.png)
 
 My username was darsch so the repository shows up as `darsh/ephrataTEALS2021`.
 
 Yours should be `<firstname>-<lastinitial>-ephrata-teals/ephrataTEALS2021`.
 
-**Configure GitHub settings and remote for fork**
+**Configure Codespaces and GitHub settings and remote for fork**
+
+Click on Code and select `Open with Codespaces`
+
+![openWithCodespaces](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/openWithCodespaces.png)
+
+Click on `+ New codespace on current branch`
+
+![newCodespace](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/newCodespace.png)
+
+When the Codespace opens it should look something like this
+
+![yourCodespace](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/master/images/yourCodespace.png)
 
 This step will involve entering some commands into the terminal, or command line. If this if the first time you've used a terminal, it can be intimidating. Don't worry! Just follow the directions and copy and paste the commands exactly. When an instruction says to _enter_ a command, it means to type (or paste) the command, and then press the Enter key to execute it.
 
@@ -101,10 +113,22 @@ git remote -v
   9. Make sure that your terminal displays the following:
 
 ```
+> origin    https://github.com/<firstname>-<lastinitial>-ephrata-teals/ephrataTEALS2021 (fetch)
+> origin    https://github.com/<firstname>-<lastinitial>-ephrata-teals/ephrataTEALS2021 (push)
+> upstream  https://github.com/DataSnowman/ephrataTEALS2021.git (fetch)
+> upstream  https://github.com/DataSnowman/ephrataTEALS2021.git (push)
+```
+
+  If this is the case go to step 12
+
+If it only shows the following:
+
+```
 > origin  https://github.com/<firstname>-<lastinitial>-ephrata-teals/ephrataTEALS2021 (fetch)
 > origin  https://github.com/<firstname>-<lastinitial>-ephrata-teals/ephrataTEALS2021 (push)
 ```
-    
+Then 
+
   10. Enter the following command as-is (_do not_ replace the username):
 
 ```
@@ -117,16 +141,7 @@ git remote add upstream https://github.com/DataSnowman/ephrataTEALS2021.git
 git remote -v
 ```
 
-  12. Make sure that your terminal displays the following:
-
-```
-> origin    https://github.com/<firstname>-<lastinitial>-ephrata-teals/ephrataTEALS2021 (fetch)
-> origin    https://github.com/<firstname>-<lastinitial>-ephrata-teals/ephrataTEALS2021 (push)
-> upstream  https://github.com/DataSnowman/ephrataTEALS2021.git (fetch)
-> upstream  https://github.com/DataSnowman/ephrataTEALS2021.git (push)
-```
-
-  13. Finally, enter the following command:
+  12. Finally, enter the following command:
 
 ```
 git pull upstream master
@@ -161,13 +176,14 @@ Congratulations! You just ran your first program!
 
 **Copy the GitHubCodespacesTest folder and paste to studentWork folder and then change the code**
 
-  1. In `CodespacesBeta.java`, find the line that reads `package sampleCode.GitHubCodespacesTest;`
-  2. Change sampleCode to studentWork so it reads `package studentWork.GitHubCodespacesTest;`
-  3. In `CodespacesBeta.java`, find the line that reads `System.out.println("Welcome Back !!!");`
-  4. Replace `Welcome Back` with `Its a new school Year` (or anything, really! You could write `Happy School Year <your dog's name>` or `Time to get school supplies`)
-  5. Click the "Run and Debug" button again
-  6. You should see the new greeting in the terminal. You just wrote your first piece of code!
-  7. To save your work, enter the following sequence of commands in the terminal:
+  1. Copy the GitHubCodespacesTest folder and paste to studentWork folder
+  2. In `CodespacesBeta.java`, find the line that reads `package sampleCode.GitHubCodespacesTest;`
+  3. Change sampleCode to studentWork so it reads `package studentWork.GitHubCodespacesTest;`
+  4. In `CodespacesBeta.java`, find the line that reads `System.out.println("Welcome Back !!!");`
+  5. Replace `Welcome Back` with `Its a new school Year` (or anything, really! You could write `Happy School Year <your dog's name>` or `Time to get school supplies`)
+  6. Click the "Run and Debug" button again
+  7. You should see the new greeting in the terminal. You just wrote your first piece of code!
+  8. To save your work, enter the following sequence of commands in the terminal:
   
 ```
 git add -A
